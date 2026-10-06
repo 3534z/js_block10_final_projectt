@@ -1,0 +1,54 @@
+.container {
+    width: 320px;
+    padding: 20px;
+    background-color: #C4C4C4;
+}
+
+.search {
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 0 10px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid black;
+}
+
+.hints {
+    width: 100%;
+}
+
+.hints > div {
+    box-sizing: border-box;
+    padding: 7px 10px;
+    border: 1px solid black;
+    border-top: none;
+    background-color: #E3E3E3;
+    cursor: pointer;
+}
+
+.added_repositories {
+    margin-top: 50px;
+}
+
+.repositories_card {
+    position: relative;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #E27BEB;
+    font-size: 18px;
+}
+
+.clear {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: red;
+    font-size: 32px;
+    cursor: pointer;
+}
