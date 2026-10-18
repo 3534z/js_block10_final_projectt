@@ -1,4 +1,5 @@
 .container {
+    margin: auto;
     width: 320px;
     padding: 20px;
     background-color: #C4C4C4;
@@ -30,6 +31,31 @@ input {
     background-color: #E3E3E3;
     cursor: pointer;
 }
+
+.history {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.history > div {
+    padding: 10px 12px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #333333;
+}
+
+.history-title {
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333333;
+}
+
 
 .added_repositories {
     margin-top: 50px;
